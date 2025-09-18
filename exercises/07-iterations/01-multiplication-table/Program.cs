@@ -16,22 +16,22 @@ while (continueProgram.ToLower() == "yes")
     int tableNumber = int.Parse(Console.ReadLine());
     
     // TODO: Validate input
-    // if (tableNumber < 1 || tableNumber > 12)
-    // {
-    //     Console.WriteLine("Please enter a number between 1 and 12.");
-    //     continue;
-    // }
+    if (tableNumber < 1 || tableNumber > 12)
+    {
+        Console.WriteLine("Please enter a number between 1 and 12.");
+        continue;
+    }
     
     Console.WriteLine("");
     Console.WriteLine($"Multiplication Table for {tableNumber}:");
     Console.WriteLine("===========================");
     
     // TODO: Use a for loop to generate the table
-    // for (int i = 1; i <= 10; i++)
-    // {
-    //     int result = tableNumber * i;
-    //     Console.WriteLine($"{tableNumber} x {i} = {result}");
-    // }
+    for (int i = 1; i <= 10; i++)
+    {
+        int result = tableNumber * i;
+        Console.WriteLine($"{tableNumber} x {i} = {result}");
+    }
     
     Console.WriteLine("");
     Console.WriteLine("Would you like to see another table? (yes/no):");
