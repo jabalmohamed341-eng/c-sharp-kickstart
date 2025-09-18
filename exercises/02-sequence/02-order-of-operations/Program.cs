@@ -10,11 +10,16 @@ Console.WriteLine("Without parentheses:");
 // TODO: Add expressions without parentheses
 // Example: Console.WriteLine("2 + 3 * 4 = " + (2 + 3 * 4));
 
-Console.WriteLine("");
+Console.WriteLine("2 + 3 * 4 = " + (2 + 3 * 4));
 Console.WriteLine("With parentheses:");
 // TODO: Add the same expressions WITH parentheses to show the difference
 // Example: Console.WriteLine("(2 + 3) * 4 = " + ((2 + 3) * 4));
 
-Console.WriteLine("");
+Console.WriteLine("(2 + 3) * 4 = " + ((2 + 3) * 4));
+
 Console.WriteLine("Complex expressions:");
 // TODO: Add more complex expressions to demonstrate order of operations
+Console.WriteLine("10 - 2 * 3 + 4 = " + (10 - 2 * 3 + 4));
+Console.WriteLine("(10 - 2) * (3 + 4) = " + ((10 - 2) * (3 + 4)));
+Console.WriteLine("10 / 2 + 3 * 4 = " + (10 / 2 + 3 * 4));
+Console.WriteLine("10 / (2 + 3) * 4 = " + (10 / (2 + 3) * 4));

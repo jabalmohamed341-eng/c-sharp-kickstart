@@ -3,7 +3,12 @@
 
 using System;
 
-Console.WriteLine("This is the first line of my story.");
+Console.WriteLine("Hello, my Name is John!.");
+Console.WriteLine("I am 30 years old.");
+Console.WriteLine("I live in New York City.");
+Console.WriteLine("I am a software engineer.");
+Console.WriteLine("I love coding and creating new applications.");
+
 
 // TODO: Add at least 4 more Console.WriteLine statements to complete your story
 // Remember: each statement should end with a semicolon

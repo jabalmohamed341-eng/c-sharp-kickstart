@@ -8,17 +8,17 @@ Console.WriteLine("===============");
 Console.WriteLine("");
 
 // TODO: Create variables for student information
-// string studentName = "Alex Johnson";
-// int pointsEarned = 425;
-// int totalPoints = 500;
+ string studentName = "Alex Johnson";
+ int pointsEarned = 425;
+ int totalPoints = 500;
 
 // TODO: Calculate percentage using arithmetic operators
-// double percentage = (double)pointsEarned / totalPoints * 100;
+ double percentage = (double)pointsEarned / totalPoints * 100;
 
-Console.WriteLine("Student: " + "TODO");
-Console.WriteLine("Points Earned: " + "TODO");
-Console.WriteLine("Total Points: " + "TODO");
-Console.WriteLine("Percentage: " + "TODO" + "%");
+Console.WriteLine("Student: " + studentName);
+Console.WriteLine("Points Earned: " + pointsEarned);
+Console.WriteLine("Total Points: " + totalPoints);
+Console.WriteLine("Percentage: " + percentage + "%");
 Console.WriteLine("");
 
 Console.WriteLine("Grade Analysis:");
