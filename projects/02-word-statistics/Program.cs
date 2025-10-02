@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 // TODO: Create text input method
 
-partial class Program
+internal partial class Program
 {
     static void Main(string[] args)
     {
